@@ -1,9 +1,10 @@
 # rk.universe
 
-![Version](https://img.shields.io/badge/Version-0.1.0-blue.svg)
+![Version](https://img.shields.io/badge/Version-0.1.2-blue.svg)
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 ![RKWard](https://img.shields.io/badge/Platform-RKWard-green)
 ![R-Universe](https://img.shields.io/badge/R--Universe-Active-success)
+[![R Linter](https://github.com/AlfCano/rk.universe/actions/workflows/lintr.yml/badge.svg)](https://github.com/AlfCano/rk.universe/actions/workflows/lintr.yml)
 ![AI Gemini](https://img.shields.io/badge/AI-Gemini-4285F4?logo=googlegemini&logoColor=white)
 
 **The Ultimate RKWard GUI Ecosystem Meta-Package**
