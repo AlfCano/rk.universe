@@ -20,7 +20,7 @@ rk_universe_packages <- function() {
   
   # 2. Print beautiful CLI header
   cli::cli_rule(
-    left = cli::style_bold("rk.universe ecosystem 0.1.0"),
+    left = cli::style_bold("rk.universe ecosystem 0.1.1"),
     right = "RKWard GUI Suite"
   )
   
@@ -31,9 +31,10 @@ rk_universe_packages <- function() {
   }
   
   # 3. RKWard Pluginmap Auto-Registration
-  # Detect if we are running inside RKWard
-  if (exists("rk.get.registered.pluginmaps", envir = as.environment("package:rkward"), inherits = FALSE) || "rkward" %in% loadedNamespaces()) {
-    
+  # FIX: Detect if we are running inside RKWard SAFELY
+  is_rkward <- ("package:rkward" %in% search()) || ("rkward" %in% loadedNamespaces())
+  
+  if (is_rkward) {
     registered_count <- 0
     for (pkg in pkgs) {
       # Find any .pluginmap file dynamically inside the package

@@ -63,6 +63,19 @@ To activate the entire GUI ecosystem, simply load the package inside your RKWard
 library(rk.universe)
 ```
 
+## 🚀 Install from github
+
+
+```R
+# Install using remotes/devtools:
+local({
+  require(remotes)
+  install_github("AlfCano/rk.universe", force = TRUE)
+})
+```
+
+
+
 **What happens next?**
 1. R will silently attach all 62+ plugin libraries to your environment.
 2. A clean status report will be printed to your console.

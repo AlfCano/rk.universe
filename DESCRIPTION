@@ -1,7 +1,7 @@
 Package: rk.universe
 Type: Package
 Title: The Ultimate RKWard Plugin Ecosystem
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: person("Alfonso", "Cano", email = "alfonso.cano@correo.buap.mx", role = c("aut", "cre"))
 Description: A meta-package that automatically installs, loads, and synchronizes a massive suite of 62+ RKWard GUI plugins for data manipulation, statistical analysis, and academic publishing.
 License: GPL (>= 3)

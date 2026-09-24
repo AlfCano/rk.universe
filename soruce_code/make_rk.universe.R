@@ -29,7 +29,7 @@ local({
     "Package: rk.universe",
     "Type: Package",
     "Title: The Ultimate RKWard Plugin Ecosystem",
-    "Version: 0.1.0",
+    "Version: 0.1.1",
     "Authors@R: person(\"Alfonso\", \"Cano\", email = \"alfonso.cano@correo.buap.mx\", role = c(\"aut\", \"cre\"))",
     "Description: A meta-package that automatically installs, loads, and synchronizes a massive suite of 62+ RKWard GUI plugins for data manipulation, statistical analysis, and academic publishing.",
     "License: GPL (>= 3)",
@@ -68,7 +68,7 @@ local({
     "  ",
     "  # 2. Print beautiful CLI header",
     "  cli::cli_rule(",
-    "    left = cli::style_bold(\"rk.universe ecosystem 0.1.0\"),",
+    "    left = cli::style_bold(\"rk.universe ecosystem 0.1.1\"),",
     "    right = \"RKWard GUI Suite\"",
     "  )",
     "  ",
@@ -79,9 +79,10 @@ local({
     "  }",
     "  ",
     "  # 3. RKWard Pluginmap Auto-Registration",
-    "  # Detect if we are running inside RKWard",
-    "  if (exists(\"rk.get.registered.pluginmaps\", envir = as.environment(\"package:rkward\"), inherits = FALSE) || \"rkward\" %in% loadedNamespaces()) {",
-    "    ",
+    "  # FIX: Detect if we are running inside RKWard SAFELY",
+    "  is_rkward <- (\"package:rkward\" %in% search()) || (\"rkward\" %in% loadedNamespaces())",
+    "  ",
+    "  if (is_rkward) {",
     "    registered_count <- 0",
     "    for (pkg in pkgs) {",
     "      # Find any .pluginmap file dynamically inside the package",
@@ -105,5 +106,4 @@ local({
   writeLines(zzz_content, file.path(pkg_name, "R", "zzz.R"))
 
   cat("\nMeta-package 'rk.universe' generated successfully!\n")
-  cat("Contains:", length(mis_paquetes), "packages.\n")
 })
