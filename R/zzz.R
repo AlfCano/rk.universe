@@ -7,7 +7,7 @@ rk_universe_packages <- function() {
 .onAttach <- function(libname, pkgname) {
   pkgs <- rk_universe_packages()
   
-  # 1. Attach packages silently (Estilo tidyverse, evita Warnings)
+  # 1. Attach packages silently
   loaded_count <- 0
   suppressPackageStartupMessages({
     for (pkg in pkgs) {
