@@ -20,7 +20,7 @@ local({
     "rk.storytelling.data", "rk.data.wrangling", "rk.pivot.reshape",
     "rk.cSplit", "rk.mult.resp", "rk.svyplot", "rk.transpose.df", "rk.psych",
     "rk.six.sigma", "rk.lookup", "rk.doe", "rk.lavaan", "rk.qcc",
-    "rk.survival", "rk.tidyr", "rk.gsub.sub"
+    "rk.survival", "rk.tidyr", "rk.gsub.sub", "rk.traminer"
   )
 
   # =========================================================================
@@ -30,7 +30,7 @@ local({
     "Package: rk.universe",
     "Type: Package",
     "Title: The Ultimate RKWard Plugin Ecosystem",
-    "Version: 0.1.2",
+    "Version: 0.1.3",
     "Authors@R: person(\"Alfonso\", \"Cano\", email = \"alfonso.cano@correo.buap.mx\", role = c(\"aut\", \"cre\"))",
     "Description: A meta-package that automatically installs, loads, and synchronizes a massive suite of 62+ RKWard GUI plugins for data manipulation, statistical analysis, and academic publishing.",
     "License: GPL (>= 3)",
@@ -93,7 +93,7 @@ local({
     "  ",
     "  # 2. Print beautiful CLI header",
     "  cli::cli_rule(",
-    "    left = cli::style_bold(\"rk.universe ecosystem 0.1.2\"),",
+    "    left = cli::style_bold(\"rk.universe ecosystem 0.1.3\"),",
     "    right = \"RKWard GUI Suite\"",
     "  )",
     "  ",
@@ -128,5 +128,5 @@ local({
   )
   writeLines(zzz_content, file.path(pkg_name, "R", "zzz.R"))
 
-  cat("\nMeta-package 'rk.universe' (v0.1.2) generated successfully!\n")
+  cat("\nMeta-package 'rk.universe' (v0.1.3) generated successfully!\n")
 })

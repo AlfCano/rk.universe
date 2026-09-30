@@ -1,7 +1,7 @@
 #' List all packages in rk.universe
 #' @export
 rk_universe_packages <- function() {
-  c("rk.haven", "rk.efa", "rk.quarto", "rk.subset.tidy", "rk.flextable", "rk.survey.design", "rk.questionr", "rk.exporter", "rk.gtsummary", "rk.gganimate", "rk.fastdummies", "rk.grateful", "rk.case.if", "rk.rmd", "rk.storytelling.survey", "rk.names.labels", "rk.text.mining", "rk.ipumsr", "rk.word.cloud", "rk.interactive.bi", "rk.effect.sizes", "rk.ggsurvey", "rk.tidycensus", "rk.weibull", "rk.ddi.import", "rk.shiny.plugins", "rk.googlesheets4", "rk.network.graphs", "rk.forcats", "rk.dates", "rk.ctables", "rk.codebook", "rk.class.lists", "rk.bayesian", "rk.correspondence", "rk.map.globalities", "rk.cartographr", "rk.aiken.v", "rk.stringr", "rk.dplyr", "rk.janitor", "rk.lubridate", "rk.apyramid", "rk.map.localities", "rk.rnaturalearth", "rk.survey.wrangling", "rk.storytelling.data", "rk.data.wrangling", "rk.pivot.reshape", "rk.cSplit", "rk.mult.resp", "rk.svyplot", "rk.transpose.df", "rk.psych", "rk.six.sigma", "rk.lookup", "rk.doe", "rk.lavaan", "rk.qcc", "rk.survival", "rk.tidyr", "rk.gsub.sub")
+  c("rk.haven", "rk.efa", "rk.quarto", "rk.subset.tidy", "rk.flextable", "rk.survey.design", "rk.questionr", "rk.exporter", "rk.gtsummary", "rk.gganimate", "rk.fastdummies", "rk.grateful", "rk.case.if", "rk.rmd", "rk.storytelling.survey", "rk.names.labels", "rk.text.mining", "rk.ipumsr", "rk.word.cloud", "rk.interactive.bi", "rk.effect.sizes", "rk.ggsurvey", "rk.tidycensus", "rk.weibull", "rk.ddi.import", "rk.shiny.plugins", "rk.googlesheets4", "rk.network.graphs", "rk.forcats", "rk.dates", "rk.ctables", "rk.codebook", "rk.class.lists", "rk.bayesian", "rk.correspondence", "rk.map.globalities", "rk.cartographr", "rk.aiken.v", "rk.stringr", "rk.dplyr", "rk.janitor", "rk.lubridate", "rk.apyramid", "rk.map.localities", "rk.rnaturalearth", "rk.survey.wrangling", "rk.storytelling.data", "rk.data.wrangling", "rk.pivot.reshape", "rk.cSplit", "rk.mult.resp", "rk.svyplot", "rk.transpose.df", "rk.psych", "rk.six.sigma", "rk.lookup", "rk.doe", "rk.lavaan", "rk.qcc", "rk.survival", "rk.tidyr", "rk.gsub.sub", "rk.traminer")
 }
 
 .onAttach <- function(libname, pkgname) {
@@ -22,7 +22,7 @@ rk_universe_packages <- function() {
   
   # 2. Print beautiful CLI header
   cli::cli_rule(
-    left = cli::style_bold("rk.universe ecosystem 0.1.2"),
+    left = cli::style_bold("rk.universe ecosystem 0.1.3"),
     right = "RKWard GUI Suite"
   )
   
