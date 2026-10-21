@@ -1,14 +1,15 @@
 # rk.universe
 
-![Version](https://img.shields.io/badge/Version-0.1.4-blue.svg)
+![Version](https://img.shields.io/badge/Version-0.1.5-blue.svg)
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 ![RKWard](https://img.shields.io/badge/Platform-RKWard-green)
 ![R-Universe](https://img.shields.io/badge/R--Universe-Active-success)
+[![R Linter](https://github.com/AlfCano/rk.tinyplot/actions/workflows/lintr.yml/badge.svg)](https://github.com/AlfCano/rk.tinyplot/actions/workflows/lintr.yml)
 ![AI Gemini](https://img.shields.io/badge/AI-Gemini-4285F4?logo=googlegemini&logoColor=white)
 
 **The Ultimate RKWard GUI Ecosystem Meta-Package**
 
-`rk.universe` is a master meta-package (inspired by the `tidyverse` philosophy) designed to easily install, load, and synchronize a massive suite of **64+ RKWard GUI plugins**. By installing this single package, you transform RKWard into a complete, state-of-the-art graphical environment for data science, statistical modeling, and academic publishing.
+`rk.universe` is a master meta-package (inspired by the `tidyverse` philosophy) designed to easily install, load, and synchronize a massive suite of **65+ RKWard GUI plugins**. By installing this single package, you transform RKWard into a complete, state-of-the-art graphical environment for data science, statistical modeling, and academic publishing.
 
 Instead of installing and activating dozens of plugins individually, `rk.universe` handles all dependencies and seamlessly integrates every graphical menu into your RKWard interface with a single command.
 
@@ -49,7 +50,7 @@ options(repos = c(
   CRAN = "https://cloud.r-project.org"
 ))
 
-# 2. Install the meta-package (This will download all 60+ plugins automatically)
+# 2. Install the meta-package (This will download all 65+ plugins automatically)
 install.packages("rk.universe")
 ```
 
@@ -77,7 +78,7 @@ local({
 
 
 **What happens next?**
-1. R will silently attach all 62+ plugin libraries to your environment.
+1. R will silently attach all 65+ plugin libraries to your environment.
 2. A clean status report will be printed to your console.
 3. RKWard will instantly populate its top menu bar (**Data**, **Analysis**, **Plots**, **File**, etc.) with dozens of new point-and-click dialogs ready for use.
 
