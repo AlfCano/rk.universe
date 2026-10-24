@@ -1,9 +1,9 @@
 Package: rk.universe
 Type: Package
 Title: The Ultimate RKWard Plugin Ecosystem
-Version: 0.1.5
+Version: 0.1.6
 Authors@R: person("Alfonso", "Cano", email = "alfonso.cano@correo.buap.mx", role = c("aut", "cre"))
-Description: A meta-package that automatically installs, loads, and synchronizes a massive suite of 65+ RKWard GUI plugins for data manipulation, statistical analysis, and academic publishing.
+Description: A meta-package that automatically installs, loads, and synchronizes a massive suite of 67+ RKWard GUI plugins for data manipulation, statistical analysis, and academic publishing.
 License: GPL (>= 3)
 URL: https://github.com/AlfCano/rk.universe
 Encoding: UTF-8
@@ -74,5 +74,6 @@ Imports:
     rk.traminer,
     rk.tinyplot,
     rk.rstatix,
-    rk.tinytable
+    rk.tinytable,
+    rk.data.table
 RoxygenNote: 7.3.1

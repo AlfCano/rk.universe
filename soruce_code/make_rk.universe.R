@@ -5,7 +5,7 @@ local({
   dir.create(file.path(pkg_name, "R"), showWarnings = FALSE)
   dir.create(file.path(pkg_name, "man"), showWarnings = FALSE)
 
-  # La lista completa de tus 65 paquetes (incluyendo rk.traminer)
+  # La lista completa de tus 67 paquetes (incluyendo rk.traminer)
   mis_paquetes <- c(
     "rk.haven", "rk.efa", "rk.quarto", "rk.subset.tidy", "rk.flextable",
     "rk.survey.design", "rk.questionr", "rk.exporter", "rk.gtsummary",
@@ -22,7 +22,7 @@ local({
     "rk.cSplit", "rk.mult.resp", "rk.svyplot", "rk.transpose.df", "rk.psych",
     "rk.six.sigma", "rk.lookup", "rk.doe", "rk.lavaan", "rk.qcc",
     "rk.survival", "rk.tidyr", "rk.gsub.sub", "rk.traminer", "rk.tinyplot",
-    "rk.rstatix", "rk.tinytable"
+    "rk.rstatix", "rk.tinytable", "rk.data.table"
   )
 
   # =========================================================================
@@ -32,9 +32,9 @@ local({
     "Package: rk.universe",
     "Type: Package",
     "Title: The Ultimate RKWard Plugin Ecosystem",
-    "Version: 0.1.5",
+    "Version: 0.1.6",
     "Authors@R: person(\"Alfonso\", \"Cano\", email = \"alfonso.cano@correo.buap.mx\", role = c(\"aut\", \"cre\"))",
-    "Description: A meta-package that automatically installs, loads, and synchronizes a massive suite of 65+ RKWard GUI plugins for data manipulation, statistical analysis, and academic publishing.",
+    "Description: A meta-package that automatically installs, loads, and synchronizes a massive suite of 67+ RKWard GUI plugins for data manipulation, statistical analysis, and academic publishing.",
     "License: GPL (>= 3)",
     "URL: https://github.com/AlfCano/rk.universe",
     "Encoding: UTF-8",
@@ -95,7 +95,7 @@ local({
     "  ",
     "  # 2. Print beautiful CLI header",
     "  cli::cli_rule(",
-    "    left = cli::style_bold(\"rk.universe ecosystem 0.1.5\"),",
+    "    left = cli::style_bold(\"rk.universe ecosystem 0.1.6\"),",
     "    right = \"RKWard GUI Suite\"",
     "  )",
     "  ",
@@ -130,5 +130,5 @@ local({
   )
   writeLines(zzz_content, file.path(pkg_name, "R", "zzz.R"))
 
-  cat("\nMeta-package 'rk.universe' (v0.1.5) generated successfully in current directory!\n")
+  cat("\nMeta-package 'rk.universe' (v0.1.6) generated successfully in current directory!\n")
 })
