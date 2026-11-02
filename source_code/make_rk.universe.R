@@ -5,7 +5,7 @@ local({
   dir.create(file.path(pkg_name, "R"), showWarnings = FALSE)
   dir.create(file.path(pkg_name, "man"), showWarnings = FALSE)
 
-  # La lista completa de tus 67 paquetes (incluyendo rk.traminer)
+  # List of 70 packages.
   mis_paquetes <- c(
     "rk.haven", "rk.efa", "rk.quarto", "rk.subset.tidy", "rk.flextable",
     "rk.survey.design", "rk.questionr", "rk.exporter", "rk.gtsummary",
@@ -35,7 +35,7 @@ local({
     "Title: The Ultimate RKWard Plugin Ecosystem",
     "Version: 0.1.8",
     "Authors@R: person(\"Alfonso\", \"Cano\", email = \"alfonso.cano@correo.buap.mx\", role = c(\"aut\", \"cre\"))",
-    "Description: A meta-package that automatically installs, loads, and synchronizes a massive suite of 67+ RKWard GUI plugins for data manipulation, statistical analysis, and academic publishing.",
+    "Description: A meta-package that automatically installs, loads, and synchronizes a massive suite of 70+ RKWard GUI plugins for data manipulation, statistical analysis, and academic publishing.",
     "License: GPL (>= 3)",
     "URL: https://github.com/AlfCano/rk.universe",
     "Encoding: UTF-8",
