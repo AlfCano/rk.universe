@@ -1,7 +1,7 @@
 Package: rk.universe
 Type: Package
 Title: The Ultimate RKWard Plugin Ecosystem
-Version: 0.1.7
+Version: 0.1.8
 Authors@R: person("Alfonso", "Cano", email = "alfonso.cano@correo.buap.mx", role = c("aut", "cre"))
 Description: A meta-package that automatically installs, loads, and synchronizes a massive suite of 67+ RKWard GUI plugins for data manipulation, statistical analysis, and academic publishing.
 License: GPL (>= 3)
@@ -77,5 +77,6 @@ Imports:
     rk.tinytable,
     rk.data.table,
     rk.forecast,
-    rk.business.mining
+    rk.business.mining,
+    rk.tuning
 RoxygenNote: 7.3.1
