@@ -1,0 +1,100 @@
+---
+url: https://AlfCano.github.io/rk.universe
+title: rk.universe
+template:
+  bootstrap: 5
+  theme: flatly # A clean and modern theme (you can change it to 'cerulean', 'cosmo', etc.)
+
+home:
+  title: rk.universe
+  description: >
+    A collection of 70 plugins developed by Alfonso Cano to expand the statistical
+    and graphical capabilities of RKWard through interactive interfaces. 
+    It facilitates data manipulation, geospatial visualization, and report 
+    generation without the need to write code directly in R.
+
+authors:
+  Alfonso Cano:
+    href: https://alfcano.r-universe.dev/
+---
+
+#  <img src="figura/RK_PG.png" align="right" height="138" alt="rk.universe logo" />
+
+<!-- badges: start -->
+[![R-universe status](https://alfcano.r-universe.dev/badges/rk.universe)](https://alfcano.r-universe.dev)
+[![pkgdown](https://github.com/alfcano/rk.universe/actions/workflows/pkgdown.yaml/badge.svg)](https://alfcano.github.io/rk.universe/)
+<!-- badges: end -->
+
+**`rk.universe`** is a comprehensive collection of **70 plugins and add-ons** developed by Alfonso Cano. It is designed to massively expand the statistical, analytical, and graphical capabilities of **RKWard** through intuitive, interactive GUI interfaces. 
+
+With `rk.universe`, you can perform complex data manipulation, geospatial visualization, and professional report generation **without writing a single line of R code**.
+
+---
+
+## 📦 The 70-Plugin Ecosystem
+
+Our universe contains 70 specialized plugins tailored for different analytical needs. Instead of memorizing R functions, you can access these tools directly from the RKWard drop-down menus. 
+
+Here is a glimpse of what is included in the collection:
+
+### 🌍 Geospatial & Mapping
+* **Interactive Maps:** Easily plot spatial data, shapefiles, and choropleth maps.
+* **Spatial Analysis:** Calculate distances, centroids, and spatial joins via UI.
+* **Coordinate Systems:** Transform and project CRSs seamlessly.
+
+### 📊 Advanced Statistics
+* **Hypothesis Testing:** Comprehensive UI for T-tests, ANOVA, and non-parametric tests.
+* **Regression Models:** Linear, logistic, and advanced modeling with diagnostic plots.
+* **Multivariate Analysis:** PCA, Factor Analysis, and clustering algorithms made easy.
+
+### 🛠 Data Manipulation & Cleaning
+* **Data Transformation:** Filter, mutate, and summarize datasets using visual menus (powered by `dplyr` under the hood).
+* **Missing Data:** Imputation tools and NA handling.
+* **Reshaping:** Pivot data from wide to long formats effortlessly.
+
+### 📝 No-Code Report Generation
+* **Automated Markdown:** Export your GUI results directly into RMarkdown or HTML reports.
+* **Publication-Ready Tables:** Generate beautifully formatted summary tables instantly.
+
+```{r, echo=FALSE}
+tabla <- readRDS("tabla/packages.rds")
+knitr::kable(tabla, caption = "Plugin Ecosystem")
+```
+
+---
+
+## 🚀 Installation
+              
+You can easily install the complete `rk.universe` collection directly from Alfonso Cano's R-universe repository. Run the following code in your R console:
+
+```r
+# Enable the repository
+options(repos = c(
+  alfcano = "https://alfcano.r-universe.dev",
+  CRAN = "https://cloud.r-project.org"
+))
+
+# Install the package
+install.packages("rk.universe")
+```
+
+---
+
+## 💻 How to Use (RKWard Interface)
+
+Once installed, the 70 plugins will automatically integrate into your **RKWard** environment. 
+To start using them:
+1. Open **RKWard**.
+2. Navigate to the top menu bar.
+3. You will see new menus for *Data*, *Analysis*, *Plots*, and *Maps*.
+4. Click on any tool, fill out the interactive dialog boxes, and click **Submit**. RKWard will automatically generate and run the R code for you!
+
+---
+
+## 📖 Documentation & Tutorials
+
+For a complete reference of all 70 plugins, step-by-step tutorials, and screenshots of the interactive menus, please visit our official documentation website:
+
+👉 **[https://alfcano.r-universe.dev/builds](https://https://alfcano.r-universe.dev/builds)**
+
+---
