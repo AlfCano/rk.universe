@@ -1,5 +1,5 @@
 ---
-output: github_document
+title: "Ecosistema de Plugins"
 ---
 
 # rk.universe <img src="figura/RK_PG.png" align="right" height="138" alt="rk.universe logo" />
