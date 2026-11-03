@@ -1,5 +1,10 @@
 ---
-title: "Ecosistema de Plugins"
+title: "Plugin Ecosystem"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Ecosistema de Plugins}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
 ---
 
 # rk.universe <img src="figura/RK_PG.png" align="right" height="138" alt="rk.universe logo" />
