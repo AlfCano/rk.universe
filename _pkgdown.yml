@@ -1,0 +1,17 @@
+url: https://alfcano.github.io/rk.universe
+title: rk.universe
+template:
+  bootstrap: 5
+  theme: flatly
+
+home:
+  title: rk.universe
+  description: >
+    A collection of 70 plugins developed by Alfonso Cano to expand the statistical
+    and graphical capabilities of RKWard through interactive interfaces.
+    It facilitates data manipulation, geospatial visualization, and report
+    generation without the need to write code directly in R.
+
+authors:
+  Alfonso Cano:
+    href: https://alfcano.r-universe.dev/
