@@ -7,7 +7,7 @@ vignette: >
   %\VignetteEncoding{UTF-8}
 ---
 
-# rk.universe <img src="figura/RK_PG.png" align="right" height="138" alt="rk.universe logo" />
+# rk.universe <img src="figura/RK_PG.png" align="right" style="height: 138px; width: auto;" alt="rk.universe logo" />
 
 <!-- badges: start -->
 [![R-universe status](https://alfcano.r-universe.dev/badges/rk.universe)](https://alfcano.r-universe.dev)
