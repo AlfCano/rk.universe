@@ -40,7 +40,7 @@ Here is a glimpse of what is included in the collection:
 * **Automated Markdown:** Export your GUI results directly into RMarkdown or HTML reports.
 * **Publication-Ready Tables:** Generate beautifully formatted summary tables instantly.
 
-```{r, echo=FALSE}
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
 tabla <- readRDS("tabla/packages.rds")
 knitr::kable(tabla, caption = "Plugin Ecosystem")
 ```
