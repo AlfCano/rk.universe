@@ -2,7 +2,7 @@ url: https://alfcano.github.io/rk.universe
 title: rk.universe
 template:
   bootstrap: 5
-  theme: flatly
+  bootswatch: flatly
 
 home:
   title: rk.universe
