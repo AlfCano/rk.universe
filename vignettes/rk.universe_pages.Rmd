@@ -73,6 +73,7 @@ install.packages("rk.universe")
 
 Once installed, the 70 plugins will automatically integrate into your **RKWard** environment. 
 To start using them:
+
 1. Open **RKWard**.
 2. Navigate to the top menu bar.
 3. You will see new menus for *Data*, *Analysis*, *Plots*, and *Maps*.

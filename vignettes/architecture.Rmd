@@ -14,8 +14,6 @@ knitr::opts_chunk$set(
 )
 ```
 
-
-
 ## 1. Core Philosophy and Architecture
 
 ### The Abstraction Pyramid
@@ -29,7 +27,8 @@ RKWard does not replace R; it empowers it. The abstraction pyramid shows how the
 * **Level 3 (Top): R Packages.** Specialized packages like `tidyverse`, `sjPlot`, and the `rk.universe` plugins sit on top, accessible via clicks without needing to memorize syntax.
 
 ### The RKWard Core Architecture
-RKWard is not a monolithic software; it is a highly intelligent Integrated Development Environment (IDE) that acts as a bridge between the R statistical engine and robust C++ graphical libraries.
+
+RKWard utilizes a decoupled architecture rather than a monolithic one. It acts as a specialized IDE that bridges the R statistical engine (backend) with a graphical user interface frontend built entirely on **Qt and KDE Frameworks**. This separation ensures that intensive R computations do not block the user interface.
 
 ![RKWard Architecture](images/architecture.png){width="75%"}
 
@@ -58,6 +57,7 @@ With `rk.universe`, every step of this iterative cycle is covered by a dedicated
 ## 3. Export, Interoperability, and Publishing
 
 ### High-Fidelity Graphic Export
+
 Academic publishing requires high-resolution, editable graphics. RKWard breaks "vendor lock-in" by allowing you to export your visualizations into multiple professional formats directly from the device window.
 
 ![Plot Export Options](images/plot_export.png){width="75%"}
@@ -75,6 +75,7 @@ RKWard and the `rk.universe` ecosystem are designed to talk to the best scientif
 * **Complex Network Analysis:** Export adjacency matrices and graphs to the `.gexf` format for advanced visual rendering in **Gephi**.
 
 ### Reproducible Research & Rendering Workflow
+
 Data analysis doesn't end in the R console. Through add-ons like `rk.rmd` and `rk.quarto`, RKWard takes your data, merges it with Markdown text, and injects it into the **knitr** or **quarto** engines.
 
 ![Pandoc Rendering Workflow](images/pandoc_workflow.png){width="75%"}
