@@ -24,11 +24,9 @@ RKWard Abstraction Pyramid
 
 ### The RKWard Core Architecture
 
-RKWard utilizes a decoupled architecture rather than a monolithic one.
-It acts as a specialized IDE that bridges the R statistical engine
-(backend) with a graphical user interface frontend built entirely on
-**Qt and KDE Frameworks**. This separation ensures that intensive R
-computations do not block the user interface.
+RKWard is not a monolithic software; it is a highly intelligent
+Integrated Development Environment (IDE) that acts as a bridge between
+the R statistical engine and robust C++ graphical libraries.
 
 ![RKWard Architecture](images/architecture.png)
 
