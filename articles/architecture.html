@@ -86,18 +86,20 @@ statistical computation, and memory management.</li>
 intelligent bridge, RKWard provides the Graphical User Interface (GUI),
 code editor, and workspace browser.</li>
 <li>
-<strong>Level 3 (Top): R Packages.</strong> Specialized packages
-like <code>tidyverse</code>, <code>sjPlot</code>, and the
-<code>rk.universe</code> plugins sit on top, accessible via clicks
-without needing to memorize syntax.</li>
+<strong>Level 3 (Top): GUI Plugins &amp; R Packages.</strong>
+Specialized packages like <code>tidyverse</code> and <code>sjPlot</code>
+are wrapped by <code>rk.universe</code> plugins, making their powerful
+functions accessible via clicks without needing to memorize syntax.</li>
 </ul>
 </div>
 <div class="section level3">
 <h3 id="the-rkward-core-architecture">The RKWard Core Architecture<a class="anchor" aria-label="anchor" href="#the-rkward-core-architecture"></a>
 </h3>
-<p>RKWard is not a monolithic software; it is a highly intelligent
-Integrated Development Environment (IDE) that acts as a bridge between
-the R statistical engine and robust C++ graphical libraries.</p>
+<p>RKWard utilizes a decoupled architecture rather than a monolithic
+one. It acts as a specialized IDE that bridges the R statistical engine
+(backend) with a graphical user interface frontend built entirely on
+<strong>Qt and KDE Frameworks</strong>. This separation ensures that
+intensive R computations do not block the user interface.</p>
 <div class="float">
 <img src="images/architecture.png" style="width:75.0%" alt="RKWard Architecture"><div class="figcaption">RKWard Architecture</div>
 </div>
@@ -154,7 +156,7 @@ or Quarto.</li>
 <p>Academic publishing requires high-resolution, editable graphics.
 RKWard breaks “vendor lock-in” by allowing you to export your
 visualizations into multiple professional formats directly from the
-device window.</p>
+<strong>on-screen graphics device</strong> (or plot window).</p>
 <div class="float">
 <img src="images/plot_export.png" style="width:75.0%" alt="Plot Export Options"><div class="figcaption">Plot Export Options</div>
 </div>
@@ -202,7 +204,7 @@ merges it with Markdown text, and injects it into the
 </div>
 <p>RKWard orchestrates the execution of <strong>Pandoc</strong> (the
 Swiss-army knife of document conversion) in the background. From a
-single interface, your R code magically transforms into
+single interface, your R code seamlessly transforms into
 Beamer/PowerPoint presentations, PDF documents (via LaTeX), HTML5 pages,
 or ePUB books.</p>
 </div>

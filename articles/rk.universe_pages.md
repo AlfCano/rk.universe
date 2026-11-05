@@ -156,11 +156,14 @@ install.packages("rk.universe")
 ### 💻 How to Use (RKWard Interface)
 
 Once installed, the 70 plugins will automatically integrate into your
-**RKWard** environment. To start using them: 1. Open **RKWard**. 2.
-Navigate to the top menu bar. 3. You will see new menus for *Data*,
-*Analysis*, *Plots*, and *Maps*. 4. Click on any tool, fill out the
-interactive dialog boxes, and click **Submit**. RKWard will
-automatically generate and run the R code for you!
+**RKWard** environment. To start using them:
+
+1.  Open **RKWard**.
+2.  Navigate to the top menu bar.
+3.  You will see new menus for *Data*, *Analysis*, *Plots*, and *Maps*.
+4.  Click on any tool, fill out the interactive dialog boxes, and click
+    **Submit**. RKWard will automatically generate and run the R code
+    for you!
 
 ------------------------------------------------------------------------
 

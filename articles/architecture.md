@@ -18,15 +18,18 @@ RKWard Abstraction Pyramid
 - **Level 2 (Middle): RKWard GUI.** Acting as the intelligent bridge,
   RKWard provides the Graphical User Interface (GUI), code editor, and
   workspace browser.
-- **Level 3 (Top): R Packages.** Specialized packages like `tidyverse`,
-  `sjPlot`, and the `rk.universe` plugins sit on top, accessible via
-  clicks without needing to memorize syntax.
+- **Level 3 (Top): GUI Plugins & R Packages.** Specialized packages like
+  `tidyverse` and `sjPlot` are wrapped by `rk.universe` plugins, making
+  their powerful functions accessible via clicks without needing to
+  memorize syntax.
 
 ### The RKWard Core Architecture
 
-RKWard is not a monolithic software; it is a highly intelligent
-Integrated Development Environment (IDE) that acts as a bridge between
-the R statistical engine and robust C++ graphical libraries.
+RKWard utilizes a decoupled architecture rather than a monolithic one.
+It acts as a specialized IDE that bridges the R statistical engine
+(backend) with a graphical user interface frontend built entirely on
+**Qt and KDE Frameworks**. This separation ensures that intensive R
+computations do not block the user interface.
 
 ![RKWard Architecture](images/architecture.png)
 
@@ -75,7 +78,8 @@ dedicated GUI dialog:
 
 Academic publishing requires high-resolution, editable graphics. RKWard
 breaks “vendor lock-in” by allowing you to export your visualizations
-into multiple professional formats directly from the device window.
+into multiple professional formats directly from the **on-screen
+graphics device** (or plot window).
 
 ![Plot Export Options](images/plot_export.png)
 
@@ -115,5 +119,5 @@ Pandoc Rendering Workflow
 
 RKWard orchestrates the execution of **Pandoc** (the Swiss-army knife of
 document conversion) in the background. From a single interface, your R
-code magically transforms into Beamer/PowerPoint presentations, PDF
+code seamlessly transforms into Beamer/PowerPoint presentations, PDF
 documents (via LaTeX), HTML5 pages, or ePUB books.
