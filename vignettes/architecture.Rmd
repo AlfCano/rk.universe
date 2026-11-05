@@ -24,7 +24,7 @@ RKWard does not replace R; it empowers it. The abstraction pyramid shows how the
 
 * **Level 1 (Base): The R Engine.** At its core, the standard R programming language handles all the heavy lifting, statistical computation, and memory management.
 * **Level 2 (Middle): RKWard GUI.** Acting as the intelligent bridge, RKWard provides the Graphical User Interface (GUI), code editor, and workspace browser.
-* **Level 3 (Top): R Packages.** Specialized packages like `tidyverse`, `sjPlot`, and the `rk.universe` plugins sit on top, accessible via clicks without needing to memorize syntax.
+* **Level 3 (Top): GUI Plugins & R Packages.** Specialized packages like `tidyverse` and `sjPlot` are wrapped by `rk.universe` plugins, making their powerful functions accessible via clicks without needing to memorize syntax.
 
 ### The RKWard Core Architecture
 
@@ -58,7 +58,7 @@ With `rk.universe`, every step of this iterative cycle is covered by a dedicated
 
 ### High-Fidelity Graphic Export
 
-Academic publishing requires high-resolution, editable graphics. RKWard breaks "vendor lock-in" by allowing you to export your visualizations into multiple professional formats directly from the device window.
+Academic publishing requires high-resolution, editable graphics. RKWard breaks "vendor lock-in" by allowing you to export your visualizations into multiple professional formats directly from the **on-screen graphics device** (or plot window).
 
 ![Plot Export Options](images/plot_export.png){width="75%"}
 
@@ -80,4 +80,4 @@ Data analysis doesn't end in the R console. Through add-ons like `rk.rmd` and `r
 
 ![Pandoc Rendering Workflow](images/pandoc_workflow.png){width="75%"}
 
-RKWard orchestrates the execution of **Pandoc** (the Swiss-army knife of document conversion) in the background. From a single interface, your R code magically transforms into Beamer/PowerPoint presentations, PDF documents (via LaTeX), HTML5 pages, or ePUB books.
+RKWard orchestrates the execution of **Pandoc** (the Swiss-army knife of document conversion) in the background. From a single interface, your R code seamlessly transforms into Beamer/PowerPoint presentations, PDF documents (via LaTeX), HTML5 pages, or ePUB books.
