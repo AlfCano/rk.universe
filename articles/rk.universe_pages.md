@@ -56,6 +56,15 @@ Here is a glimpse of what is included in the collection:
 - **Publication-Ready Tables:** Generate beautifully formatted summary
   tables instantly.
 
+#### 🔍 Explore the Full Ecosystem
+
+The `rk.universe` is constantly growing. Beyond standard data wrangling
+and statistics, the ecosystem includes highly specialized tools for
+everything from *Sequence Analysis* (`rk.traminer`) to *Business
+Analytics* (`rk.forecast`). Browse the comprehensive table below to
+discover the exact GUI plugin that fits your research or data science
+needs:
+
 | n | Name | Version | Description |
 |:---|:---|:---|:---|
 | 1 | rk.aiken.v | 0.02.9 | An RKWard plugin to calculate Aiken’s coefficients for content validity (V) and homogeneity (H). |
@@ -173,7 +182,6 @@ For a complete reference of all 70 plugins, step-by-step tutorials, and
 screenshots of the interactive menus, please visit our official
 documentation website:
 
-👉
-**[https://alfcano.r-universe.dev/builds](https://https://alfcano.r-universe.dev/builds)**
+👉 **<https://alfcano.r-universe.dev/builds>**
 
 ------------------------------------------------------------------------
