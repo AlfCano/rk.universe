@@ -1,6 +1,6 @@
 # rk.universe
 
-![Version](https://img.shields.io/badge/Version-0.1.8-blue.svg)[![License:
+![Version](https://img.shields.io/badge/Version-0.1.9-blue.svg)[![License:
 GPL
 v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 ![RKWard](https://img.shields.io/badge/Platform-RKWard-green)![R-Universe](https://img.shields.io/badge/R--Universe-Active-success)[![R
@@ -12,7 +12,7 @@ Gemini](https://img.shields.io/badge/AI-Gemini-4285F4?logo=googlegemini&logoColo
 
 `rk.universe` is a master meta-package (inspired by the `tidyverse`
 philosophy) designed to easily install, load, and synchronize a massive
-suite of **70+ RKWard GUI plugins**. By installing this single package,
+suite of **72+ RKWard GUI plugins**. By installing this single package,
 you transform RKWard into a complete, state-of-the-art graphical
 environment for data science, statistical modeling, and academic
 publishing.
@@ -25,7 +25,7 @@ graphical menu into your RKWard interface with a single command.
 
 ## 🌟 Key Features
 
-- **One-Line Installation:** Pulls over 70 highly specialized GUI
+- **One-Line Installation:** Pulls over 72 highly specialized GUI
   plugins directly from the R-Universe servers.
 - **Automatic GUI Registration:** Features a smart `.onAttach` hook.
   When loaded inside RKWard, it automatically searches for and registers
@@ -79,7 +79,7 @@ options(repos = c(
   CRAN = "https://cloud.r-project.org"
 ))
 
-# 2. Install the meta-package (This will download all 70+ plugins automatically)
+# 2. Install the meta-package (This will download all 72+ plugins automatically)
 install.packages("rk.universe")
 ```
 
@@ -106,7 +106,7 @@ local({
 })
 ```
 
-**What happens next?** 1. R will silently attach all 70+ plugin
+**What happens next?** 1. R will silently attach all 72+ plugin
 libraries to your environment. 2. A clean status report will be printed
 to your console. 3. RKWard will instantly populate its top menu bar
 (**Data**, **Analysis**, **Plots**, **File**, etc.) with dozens of new
