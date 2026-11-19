@@ -22,7 +22,7 @@ rk_universe_packages <- function() {
   
   # 2. Print beautiful CLI header
   cli::cli_rule(
-    left = cli::style_bold("rk.universe ecosystem 0.1.8"),
+    left = cli::style_bold("rk.universe ecosystem 0.1.9"),
     right = "RKWard GUI Suite"
   )
   

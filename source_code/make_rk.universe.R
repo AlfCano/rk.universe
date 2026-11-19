@@ -5,7 +5,7 @@ local({
   dir.create(file.path(pkg_name, "R"), showWarnings = FALSE)
   dir.create(file.path(pkg_name, "man"), showWarnings = FALSE)
 
-  # List of 70 packages.
+  # List of 72 packages.
   mis_paquetes <- c(
     "rk.haven", "rk.efa", "rk.quarto", "rk.subset.tidy", "rk.flextable",
     "rk.survey.design", "rk.questionr", "rk.exporter", "rk.gtsummary",
@@ -33,9 +33,9 @@ local({
     "Package: rk.universe",
     "Type: Package",
     "Title: The Ultimate RKWard Plugin Ecosystem",
-    "Version: 0.1.8",
+    "Version: 0.1.9",
     "Authors@R: person(\"Alfonso\", \"Cano\", email = \"alfonso.cano@correo.buap.mx\", role = c(\"aut\", \"cre\"))",
-    "Description: A meta-package that automatically installs, loads, and synchronizes a massive suite of 70+ RKWard GUI plugins for data manipulation, statistical analysis, and academic publishing.",
+    "Description: A meta-package that automatically installs, loads, and synchronizes a massive suite of 72+ RKWard GUI plugins for data manipulation, statistical analysis, and academic publishing.",
     "License: GPL (>= 3)",
     "URL: https://github.com/AlfCano/rk.universe",
     "Encoding: UTF-8",
@@ -96,7 +96,7 @@ local({
     "  ",
     "  # 2. Print beautiful CLI header",
     "  cli::cli_rule(",
-    "    left = cli::style_bold(\"rk.universe ecosystem 0.1.8\"),",
+    "    left = cli::style_bold(\"rk.universe ecosystem 0.1.9\"),",
     "    right = \"RKWard GUI Suite\"",
     "  )",
     "  ",
@@ -131,5 +131,5 @@ local({
   )
   writeLines(zzz_content, file.path(pkg_name, "R", "zzz.R"))
 
-  cat("\nMeta-package 'rk.universe' (v0.1.8) generated successfully in current directory!\n")
+  cat("\nMeta-package 'rk.universe' (v0.1.9) generated successfully in current directory!\n")
 })
