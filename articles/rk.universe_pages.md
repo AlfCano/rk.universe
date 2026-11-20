@@ -6,7 +6,7 @@
 status](https://alfcano.r-universe.dev/badges/rk.universe)](https://alfcano.r-universe.dev)
 [![pkgdown](https://github.com/alfcano/rk.universe/actions/workflows/pkgdown.yaml/badge.svg)](https://alfcano.github.io/rk.universe/)
 
-**`rk.universe`** is a comprehensive collection of **70 plugins and
+**`rk.universe`** is a comprehensive collection of **72 plugins and
 add-ons** developed by Alfonso Cano. It is designed to massively expand
 the statistical, analytical, and graphical capabilities of **RKWard**
 through intuitive, interactive GUI interfaces.
@@ -17,9 +17,9 @@ writing a single line of R code**.
 
 ------------------------------------------------------------------------
 
-### 📦 The 70-Plugin Ecosystem
+### 📦 The 72-Plugin Ecosystem
 
-Our universe contains 70 specialized plugins tailored for different
+Our universe contains 72 specialized plugins tailored for different
 analytical needs. Instead of memorizing R functions, you can access
 these tools directly from the RKWard drop-down menus.
 
@@ -167,7 +167,7 @@ install.packages("rk.universe")
 
 ### 💻 How to Use (RKWard Interface)
 
-Once installed, the 70 plugins will automatically integrate into your
+Once installed, the 72 plugins will automatically integrate into your
 **RKWard** environment. To start using them:
 
 1.  Open **RKWard**.
@@ -181,7 +181,7 @@ Once installed, the 70 plugins will automatically integrate into your
 
 ### 📖 Documentation & Tutorials
 
-For a complete reference of all 70 plugins, step-by-step tutorials, and
+For a complete reference of all 72 plugins, step-by-step tutorials, and
 screenshots of the interactive menus, please visit our official
 documentation website:
 
