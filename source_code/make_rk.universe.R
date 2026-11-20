@@ -23,7 +23,7 @@ local({
     "rk.six.sigma", "rk.lookup", "rk.doe", "rk.lavaan", "rk.qcc",
     "rk.survival", "rk.tidyr", "rk.gsub.sub", "rk.traminer", "rk.tinyplot",
     "rk.rstatix", "rk.tinytable", "rk.data.table", "rk.forecast",
-    "rk.business.mining", "rk.tuning"
+    "rk.business.mining", "rk.tuning", "rk.ts.prep","rk.ts.models"
   )
 
   # =========================================================================
@@ -42,6 +42,10 @@ local({
     "Imports:",
     "    cli,",
     paste0("    ", paste(mis_paquetes, collapse = ",\n    ")),
+    "Suggests:",
+    "    knitr,",
+    "    rmarkdown",
+    "VignetteBuilder: knitr",
     "RoxygenNote: 7.3.1"
   )
   writeLines(desc_content, file.path(pkg_name, "DESCRIPTION"))
