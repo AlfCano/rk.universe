@@ -6,7 +6,7 @@
 status](https://alfcano.r-universe.dev/badges/rk.universe)](https://alfcano.r-universe.dev)
 [![pkgdown](https://github.com/alfcano/rk.universe/actions/workflows/pkgdown.yaml/badge.svg)](https://alfcano.github.io/rk.universe/)
 
-**`rk.universe`** is a comprehensive collection of **72 plugins and
+**`rk.universe`** is a comprehensive collection of **+73 plugins and
 add-ons** developed by Alfonso Cano. It is designed to massively expand
 the statistical, analytical, and graphical capabilities of **RKWard**
 through intuitive, interactive GUI interfaces.
@@ -17,9 +17,9 @@ writing a single line of R code**.
 
 ------------------------------------------------------------------------
 
-### 📦 The 72-Plugin Ecosystem
+### 📦 The +73-Plugin Ecosystem
 
-Our universe contains 72 specialized plugins tailored for different
+Our universe contains +73 specialized plugins tailored for different
 analytical needs. Instead of memorizing R functions, you can access
 these tools directly from the RKWard drop-down menus.
 
@@ -56,15 +56,6 @@ Here is a glimpse of what is included in the collection:
 - **Publication-Ready Tables:** Generate beautifully formatted summary
   tables instantly.
 
-#### 🔍 Explore the Full Ecosystem
-
-The `rk.universe` is constantly growing. Beyond standard data wrangling
-and statistics, the ecosystem includes highly specialized tools for
-everything from *Sequence Analysis* (`rk.traminer`) to *Business
-Analytics* (`rk.forecast`). Browse the comprehensive table below to
-discover the exact GUI plugin that fits your research or data science
-needs:
-
 | n | Name | Version | Description |
 |:---|:---|:---|:---|
 | 1 | rk.aiken.v | 0.02.9 | An RKWard plugin to calculate Aiken’s coefficients for content validity (V) and homogeneity (H). |
@@ -86,14 +77,13 @@ needs:
 | 17 | rk.dplyr | 0.1.4 | An RKWard plugin for data table combination and manipulation using the ‘dplyr’ library. |
 | 18 | rk.efa | 0.0.4 | An RKWard GUI plugin for Exploratory Factor Analysis (EFA), Polychoric correlations, and visualizing Factor models |
 | 19 | rk.effect.sizes | 0.0.1 | rk.effect.sizes provides a seamless, point-and-click graphical interface inside RKWard to calculate effect sizes for various statistical experimental designs. Acting as a unified GUI wrapper for powerful statistical R packages like effsize, rstatix, sjstats, and rcompanion, this plugin allows users to compute essential metrics like Cohen’s d, Eta Squared, and Kendall’s W without writing a single line of code. |
-| 20 | rk.exporter | 0.0.5 | “rk.exporter brings seamless, automated batch exporting capabilities to the RKWard GUI. Stop wasting hours manually exporting plots one by one or copy-pasting tables into Microsoft Office. |
-| Powered by purrr, flextable, and officer, this plugin suite allows you to take a List of ggplot2 objects or flextables and instantly export them as hundreds of individual high-res files, or compile them directly into professional, multi-page Word documents, PDFs, or PowerPoint presentations.” | NA | NA | NA |
+| 20 | rk.exporter | 0.0.5 | rk.exporter brings seamless, automated batch exporting capabilities to the RKWard GUI. Stop wasting hours manually exporting plots one by one or copy-pasting tables into Microsoft Office Powered by purrr, flextable, and officer, this plugin suite allows you to take a List of ggplot2 objects or flextables and instantly export them as hundreds of individual high-res files, or compile them directly into professional, multi-page Word documents, PDFs, or PowerPoint presentations. |
 | 21 | rk.fastdummies | 0.0.3 | Extends RKWard’s data wrangling capabilities by providing a graphical interface for the {fastDummies} package. It allows users to quickly create dummy variables (one-hot encoding) from character or factor variables. Uniquely, this plugin supports both standard data.frame objects and complex survey designs (svydesign), ensuring that your weighted data structure remains intact during transformation. |
 | 22 | rk.flextable | 0.0.5 | RKWard plugin that provides a graphical interface for the powerful flextable package. It allows users to easily create, format, and export professional tables for scientific publications and reports directly from the RKWard GUI, without writing complex R code. |
 | 23 | rk.forcats | 0.1.8 | An RKWard plugin package for factor manipulation using the ‘forcats’ library. |
-| 24 | rk.forecast | 0.0.2 | Bridges the gap between advanced econometric tools and practical Business Analytics. Designed with modern forecasting workflows in mind (aligning with leading business analytics textbooks), this plugin provides a seamless, point-and-click interface to generate time series predictions, evaluate business KPIs (like MAPE and RMSE), and plot publication-ready graphics using ggplot2—all without writing a single line of R code. |
+| 24 | rk.forecast | 0.0.3 | Bridges the gap between advanced econometric tools and practical Business Analytics. Designed with modern forecasting workflows in mind (aligning with leading business analytics textbooks), this plugin provides a seamless, point-and-click interface to generate time series predictions, evaluate business KPIs (like MAPE and RMSE), and plot publication-ready graphics using ggplot2—all without writing a single line of R code. |
 | 25 | rk.gganimate | 0.0.6 | rk.gganimate is an advanced RKWard GUI plugin suite that brings the power of gganimate, ggplot2, and srvyr into a point-and-click interface. Designed for data storytelling, it allows researchers to easily aggregate complex survey data (or standard data frames) and render stunning, publication-ready animated GIFs—including Gapminder-style bubble charts, dynamic line charts, and viral Bar Chart Races. |
-| 26 | rk.ggsurvey | 0.1.11 | A plugin package analyze complex survey designs with custom plugins and the ‘ggsurvey’ package. |
+| 26 | rk.ggsurvey | 0.1.12 | A plugin package analyze complex survey designs with custom plugins and the ‘ggsurvey’ package. |
 | 27 | rk.googlesheets4 | 0.0.2 | This package provides a suite of RKWard plugins that create a graphical user interface for the popular `googlesheets4` R package. It is designed to bridge the gap between desktop RKWard sessions and cloud-based Google Sheets, allowing for authentication, reading, writing, and management of sheets without needing to memorize API functions. |
 | 28 | rk.grateful | 0.0.2 | rk.grateful is an RKWard GUI plugin designed to facilitate the citation of R packages used in your project. A must-have for researchers and data scientists promoting reproducible science! |
 | 29 | rk.gsub.sub | 0.0.7 | RKWard GUI for sub() and gsub() to find and replace patterns in character vectors. |
@@ -121,7 +111,7 @@ needs:
 | 51 | rk.shiny.plugins | 1.2.0 | rk.shiny.plugins, bundles several interactive data visualization and analysis tools (Shiny apps and HTML widgets) into a single, easy-to-install RKWard extension. The entire development process is encapsulated within the R script, making it reproducible, easy to maintain, and simple to extend with new plugins |
 | 52 | rk.six.sigma | 0.0.1 | It is designed to bridge the gap between open-source R statistics and commercial quality control software like Minitab or Bluesky Statistics. It provides a user-friendly GUI for performing Measurement System Analysis (MSA) and Process Capability studies, leveraging the power of the `SixSigma`, `irr`, and `MASS` packages. |
 | 53 | rk.storytelling.data | 0.3.0 | Brings the principles of Cole Nussbaumer Knaflic’s *“Storytelling with Data” (SWD)* to the RKWard GUI. It provides a specialized collection of `ggplot2` wrappers designed to reduce cognitive load |
-| 54 | rk.storytelling.survey | 0.1.1 | Applies the principles of Cole Nussbaumer Knaflic’s “Storytelling with Data” (SWD) to complex survey data. By integrating the power of the survey and lemon packages, it provides a specialized collection of RKWard plugins designed to communicate weighted results (Means and Totals) with clarity, precision, and professional aesthetics. |
+| 54 | rk.storytelling.survey | 0.1.2 | Applies the principles of Cole Nussbaumer Knaflic’s “Storytelling with Data” (SWD) to complex survey data. By integrating the power of the survey and lemon packages, it provides a specialized collection of RKWard plugins designed to communicate weighted results (Means and Totals) with clarity, precision, and professional aesthetics. |
 | 55 | rk.stringr | 0.1.1 | An RKWard plugin for string manipulation using the ‘stringr’ library. |
 | 56 | rk.subset.tidy | 0.0.2 | An RKWard GUI plugin for subsetting cases and variables using dplyr (filter, slice, select, arrange). |
 | 57 | rk.survey.design | 0.8.3 | A plugin package to create and analyze complex survey designs using the ‘survey’ package. |
@@ -137,9 +127,10 @@ needs:
 | 67 | rk.transpose.df | 0.01.5 | An RKWard plugin to transpose a data frame, turning rows into columns and columns into rows. |
 | 68 | rk.ts.models | 0.0.1 | rk.ts.models is the core modeling engine of the RKWard Time Series & Forecasting suite (seamlessly building upon rk.ts.prep and rk.forecast). Designed for analysts migrating from SPSS Forecasting or practicing modern econometric workflows, this plugin offers an intuitive, point-and-click interface for Expert Modeling (Auto-ARIMA vs. ETS + Ensembles), Outlier Detection, Dynamic Regression (xreg), Model Reuse, and Multivariate Causal Analysis (VAR & Granger Causality)—without writing a single line of R code. |
 | 69 | rk.ts.prep | 0.0.1 | It is the foundational first block of the RKWard Time Series & Forecasting suite (designed to seamlessly complement rk.forecast). Before fitting ARIMA or Exponential Smoothing models, real-world business data often suffers from missing gaps, unverified seasonality, or non-stationarity. This plugin provides a clean point-and-click workflow to clean, impute, decompose, and statistically diagnose time series—all without writing a single line of R code. |
-| 70 | rk.tuning | 0.0.1 | Bridges the gap between state-of-the-art machine learning engineering and practical Business Analytics. Designed with modern data science workflows in mind, this plugin provides a point-and-click interface to build strict, leak-proof predictive pipelines. Implement feature engineering, cross-validation, grid search tuning, and final model evaluation—all without writing a single line of R code. |
-| 71 | rk.weibull | 0.0.2 | Is an external plug-in for RKWard that brings industrial-grade Reliability Engineering tools to the RKWard environment. It interfaces with the open-source `WeibullR` package to perform Life Data Analysis (Weibull Analysis) and Warranty Prediction, serving as a free alternative to software like ReliaSoft Weibull or Minitab’s Reliability module. |
-| 72 | rk.word.cloud | 0.0.1 | rk.word.cloud provides a seamless, point-and-click graphical interface inside RKWard to create visually stunning word clouds from text mining data. Acting as a unified GUI wrapper for the ggwordcloud, tm, and ggplot2 packages, this plugin allows users to effortlessly turn a raw text Corpus into a publication-ready graphic without writing any R code. |
+| 70 | rk.ts.pro | 0.0.1 | Advanced Time Series & Forecasting for RKWard: Prophet (Multiple Seasonality & Holidays), TBATS, Batch & Hierarchical Reconciliation (tsibble/fable), and Backtesting (Cross-Validation). |
+| 71 | rk.tuning | 0.0.1 | Bridges the gap between state-of-the-art machine learning engineering and practical Business Analytics. Designed with modern data science workflows in mind, this plugin provides a point-and-click interface to build strict, leak-proof predictive pipelines. Implement feature engineering, cross-validation, grid search tuning, and final model evaluation—all without writing a single line of R code. |
+| 73 | rk.weibull | 0.0.2 | Is an external plug-in for RKWard that brings industrial-grade Reliability Engineering tools to the RKWard environment. It interfaces with the open-source `WeibullR` package to perform Life Data Analysis (Weibull Analysis) and Warranty Prediction, serving as a free alternative to software like ReliaSoft Weibull or Minitab’s Reliability module. |
+| 74 | rk.word.cloud | 0.0.1 | rk.word.cloud provides a seamless, point-and-click graphical interface inside RKWard to create visually stunning word clouds from text mining data. Acting as a unified GUI wrapper for the ggwordcloud, tm, and ggplot2 packages, this plugin allows users to effortlessly turn a raw text Corpus into a publication-ready graphic without writing any R code. |
 
 Plugin Ecosystem {.table}
 
@@ -167,24 +158,22 @@ install.packages("rk.universe")
 
 ### 💻 How to Use (RKWard Interface)
 
-Once installed, the 72 plugins will automatically integrate into your
-**RKWard** environment. To start using them:
-
-1.  Open **RKWard**.
-2.  Navigate to the top menu bar.
-3.  You will see new menus for *Data*, *Analysis*, *Plots*, and *Maps*.
-4.  Click on any tool, fill out the interactive dialog boxes, and click
-    **Submit**. RKWard will automatically generate and run the R code
-    for you!
+Once installed, the +73 plugins will automatically integrate into your
+**RKWard** environment. To start using them: 1. Open **RKWard**. 2.
+Navigate to the top menu bar. 3. You will see new menus for *Data*,
+*Analysis*, *Plots*, and *Maps*. 4. Click on any tool, fill out the
+interactive dialog boxes, and click **Submit**. RKWard will
+automatically generate and run the R code for you!
 
 ------------------------------------------------------------------------
 
 ### 📖 Documentation & Tutorials
 
-For a complete reference of all 72 plugins, step-by-step tutorials, and
+For a complete reference of all +73 plugins, step-by-step tutorials, and
 screenshots of the interactive menus, please visit our official
 documentation website:
 
-👉 **<https://alfcano.r-universe.dev/builds>**
+👉
+**[https://alfcano.r-universe.dev/builds](https://https://alfcano.r-universe.dev/builds)**
 
 ------------------------------------------------------------------------
