@@ -177,7 +177,6 @@ For a complete reference of all +73 plugins, step-by-step tutorials, and
 screenshots of the interactive menus, please visit our official
 documentation website:
 
-👉
-**[https://alfcano.r-universe.dev/builds](https://https://alfcano.r-universe.dev/builds)**
+👉 **<https://alfcano.r-universe.dev/builds>**
 
 ------------------------------------------------------------------------
