@@ -129,8 +129,8 @@ Here is a glimpse of what is included in the collection:
 | 69 | rk.ts.prep | 0.0.1 | It is the foundational first block of the RKWard Time Series & Forecasting suite (designed to seamlessly complement rk.forecast). Before fitting ARIMA or Exponential Smoothing models, real-world business data often suffers from missing gaps, unverified seasonality, or non-stationarity. This plugin provides a clean point-and-click workflow to clean, impute, decompose, and statistically diagnose time series—all without writing a single line of R code. |
 | 70 | rk.ts.pro | 0.0.1 | Advanced Time Series & Forecasting for RKWard: Prophet (Multiple Seasonality & Holidays), TBATS, Batch & Hierarchical Reconciliation (tsibble/fable), and Backtesting (Cross-Validation). |
 | 71 | rk.tuning | 0.0.1 | Bridges the gap between state-of-the-art machine learning engineering and practical Business Analytics. Designed with modern data science workflows in mind, this plugin provides a point-and-click interface to build strict, leak-proof predictive pipelines. Implement feature engineering, cross-validation, grid search tuning, and final model evaluation—all without writing a single line of R code. |
-| 73 | rk.weibull | 0.0.2 | Is an external plug-in for RKWard that brings industrial-grade Reliability Engineering tools to the RKWard environment. It interfaces with the open-source `WeibullR` package to perform Life Data Analysis (Weibull Analysis) and Warranty Prediction, serving as a free alternative to software like ReliaSoft Weibull or Minitab’s Reliability module. |
-| 74 | rk.word.cloud | 0.0.1 | rk.word.cloud provides a seamless, point-and-click graphical interface inside RKWard to create visually stunning word clouds from text mining data. Acting as a unified GUI wrapper for the ggwordcloud, tm, and ggplot2 packages, this plugin allows users to effortlessly turn a raw text Corpus into a publication-ready graphic without writing any R code. |
+| 72 | rk.weibull | 0.0.2 | Is an external plug-in for RKWard that brings industrial-grade Reliability Engineering tools to the RKWard environment. It interfaces with the open-source `WeibullR` package to perform Life Data Analysis (Weibull Analysis) and Warranty Prediction, serving as a free alternative to software like ReliaSoft Weibull or Minitab’s Reliability module. |
+| 73 | rk.word.cloud | 0.0.1 | rk.word.cloud provides a seamless, point-and-click graphical interface inside RKWard to create visually stunning word clouds from text mining data. Acting as a unified GUI wrapper for the ggwordcloud, tm, and ggplot2 packages, this plugin allows users to effortlessly turn a raw text Corpus into a publication-ready graphic without writing any R code. |
 
 Plugin Ecosystem {.table}
 
@@ -159,11 +159,15 @@ install.packages("rk.universe")
 ### 💻 How to Use (RKWard Interface)
 
 Once installed, the +73 plugins will automatically integrate into your
-**RKWard** environment. To start using them: 1. Open **RKWard**. 2.
-Navigate to the top menu bar. 3. You will see new menus for *Data*,
-*Analysis*, *Plots*, and *Maps*. 4. Click on any tool, fill out the
-interactive dialog boxes, and click **Submit**. RKWard will
-automatically generate and run the R code for you!
+**RKWard** environment. To start using them:
+
+1.  Open **RKWard**.
+2.  Navigate to the top menu bar.
+3.  You will see new menus for *Data*, *Analysis*, *Plots*, and *Maps*.
+4.  Click on any tool, fill out the interactive dialog boxes, and click
+    **Submit**.
+
+RKWard will automatically generate and run the R code for you!
 
 ------------------------------------------------------------------------
 
